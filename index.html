@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3>Crearea unui formular in pagina HTML</h3>
+    <form>
+        <fieldset>
+            <legend>Date personale</legend>
+            <label>Nume:</label>
+            <br>
+            <input type="text">
+            <br>
+            <label>Prenume:</label>
+            <br>
+            <input type="text">
+            <br>
+            <label>Data nașterii:</label>
+            <br>
+            <input type="date">
+            <br>
+            <label>Parola:</label>
+            <br>
+            <input type="password">
+            <br>
+            <label>Hobby:</label>
+            <br>
+            <input type="checkbox" id="1">
+            <label for="1">Sport</label>
+            <br>
+            <input type="checkbox" id="2">
+            <label for="2">Sport</label>
+            <br>
+            <input type="checkbox" id="3">
+            <label for="3">Sport</label>
+            <br>
+            <label>Gen:</label>
+            <br>
+            <input type="radio" id="g1" name="gen">
+            <label for="g1">Masculin</label>
+            <input type="radio" id="g2" name="gen">
+            <label for="g2">Feminin</label>
+            <br>
+            <label for="treapta">Selectați trapta:</label>
+            <br>
+            <select id="treapta" name="tr">
+                <option></option>
+                <option>Gimnaziu</option>
+                <option>Liceu</option>
+            </select>
+            <br>
+            <label>Localitatea:</label>
+            <br>
+            <input list="loc" name="loc">
+            <datalist id="loc">
+                <option></option>
+                <option value="Chișinău">
+                <option value="Chișinău">
+                <option value="Chișinău">
+                <option value="Chișinău">
+                <option value="Alege odată și odată Chișinău și nu sta pe gânduri!!!">
+            </datalist>
+            <br>
+            <label>Propuneri:</label>
+            <br>
+            <textarea rows="5" cols="30" placeholder="Așteptăm propunirele pentru activitați extrașcolare"></textarea>
+            <br>
+            <input type="reset" value="reset">
+            <input type="button" value="Accept">
+        </fieldset>
+    </form>
+</body>
+</html>
